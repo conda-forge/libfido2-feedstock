@@ -9,7 +9,7 @@ source:
   sha256: 554291188f24ab595cb947f9d2b6ec40ce5afe39d9257c1e2cd0bdef8bf7fd1d
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   run_exports:
     - {{ pin_subpackage('libfido2', max_pin='x') }}
